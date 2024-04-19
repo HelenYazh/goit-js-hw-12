@@ -1,3 +1,6 @@
+import axios from 'axios';
+
+
 export function fetchImages(query) {
     const API_KEY = "43383270-573d9e698d4e4b734db4ac29f";
     const params = new URLSearchParams({

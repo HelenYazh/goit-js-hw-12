@@ -1,7 +1,6 @@
 const list = document.querySelector(".gallery");
 
 export function createMarkup(arr) {
-    // const list = document.querySelector(".gallery");
 
     const markup = arr.map(({ webformatURL, largeImageURL, tags, likes, views, comments, downloads }) =>
         `<li class="gallery-item">
