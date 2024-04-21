@@ -61,7 +61,7 @@ async function handleSubmit(event) {
 }
 
 
-async function handleClick(event) {
+async function handleClick() {
     page += 1;
 
     try {
@@ -74,7 +74,7 @@ async function handleClick(event) {
 
         if (card) {
             const cardHeight = card.getBoundingClientRect().height;
-            
+
             window.scrollBy({
                 top: cardHeight * 2,
                 behavior: "smooth"
