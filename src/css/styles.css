@@ -37,7 +37,8 @@
   border-color: #4e75ff;
 }
 
-.search-btn {
+.search-btn,
+.load-more-btn {
   color: #fff;
   font-family: Montserrat;
   font-size: 16px;
@@ -54,7 +55,20 @@
   border-color: transparent;
 }
 
-.search-btn:hover {
+.load-more-btn {
+  margin-top: 32px;
+  margin-bottom: 44px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-btn:hover,
+.load-more-btn:hover {
   background: #6c8cff;
 }
 
@@ -103,7 +117,10 @@
   font-weight: 400;
   color: #2e2f42;
   position: relative;
+  margin-top: 32px;
+  margin-bottom: 44px;
 }
+
 .loader::before {
   content: '';
   position: absolute;
